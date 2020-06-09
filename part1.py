@@ -59,7 +59,7 @@ def logout():
 # def admin():
 #     return redirect(url_for("home",name="Admin!"))
 
-# ChECK Oana repo
+# TESTINGGGG
 
 if __name__=='__main__':
     app.run(debug=True)
