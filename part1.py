@@ -32,7 +32,7 @@ def login():
         if "user" in session:
             flash("Already logged In!", "info")
             return redirect(url_for("user"))
-            
+
         return render_template("login.html")
 
 @app.route("/user")
@@ -58,6 +58,8 @@ def logout():
 # @app.route("/admin/")
 # def admin():
 #     return redirect(url_for("home",name="Admin!"))
+
+# ChECK GIT Oana
 
 if __name__=='__main__':
     app.run(debug=True)
